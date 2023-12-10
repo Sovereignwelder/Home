@@ -1,4 +1,4 @@
-# lIGTHNING ADDRESS REDIRECT
+# LIGTHNING ADDRESS REDIRECT
 
-Redirect from custom domain to [alby](https://getalby.com/) lightning address.  
+Redirect from *stackzoo.io* domain to [alby](https://getalby.com/) for custom [lightning address](https://github.com/andrerfneves/lightning-address).  
 
