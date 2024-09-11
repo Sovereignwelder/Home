@@ -1,1 +1,8 @@
-{"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://ln.tips/lnurlp/sovereignwelder/callback","metadata":"[[\"text/identifier\",\"sovereignwelder@ln.tips\"],[\"text/plain\",\"Sats for sovereignwelder\"]]","minSendable":10,"maxSendable":1000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false},"pubkey":{"mandatory":false}},"nostrPubkey":"51bbb15e37e85b00d8a76837b6b6a3355d1dc5ec58bdd0f3808c9ad3b77a2290","allowsNostr":true}
+{
+  "minSendable": 1000,
+  "maxSendable": 500000000000,
+  "metadata": "[[\"text/plain\",\"speed-payment-address\"],[\"text/identifier\",\"justinanon@speed.app\"]]",
+  "commentAllowed": 255,
+  "callback": "https://appapi.tryspeed.com/lnurl/ac48a0c85e390df87c107ffe2db12ea0fdc273592053008076c6f197f6c4d672",
+  "tag": "payRequest"
+}
