@@ -12,18 +12,25 @@
             text-align: center;
             margin: 0;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
         }
         .profile-pic {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             object-fit: cover;
             margin: 20px auto;
         }
         .content {
-            max-width: 600px;
+            max-width: 90%;
+            width: 600px;
             margin: 0 auto;
-            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            line-height: 1.5;
         }
         .profile-link {
             display: inline-block;
@@ -34,26 +41,26 @@
             text-decoration: none;
             font-weight: bold;
         }
+        @media (max-width: 600px) {
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            .content {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
     <img src="https://i.nostr.build/vwh5fjBTMyCLkaXc.webp" alt="Profile Picture" class="profile-pic">
     <div class="content">
-NIP-05:
-Justin@thenostr.lol
-
-NPUB:
-npub18dx5thxfnzmxzw4nek2edsm2dnqzyuzuatwpyk7z7dlvp77ruswst4kavc
-
-Husband, Father, Freedom Enthusiast, & Future Dystopian Warlord. 
-
-"I am extremely peaceful." ~  jstark1809
-
-SATS Off chain:
-Justin@thenostr.lol
-
-BTC On chain:
-bc1qxyrzal4jcgkepf8hmlr2sqm0jye47l07pm4jym
+        <p>NIP-05: Justin@thenostr.lol</p>
+        <p>NPUB: npub18dx5thxfnzmxzw4nek2edsm2dnqzyuzuatwpyk7z7dlvp77ruswst4kavc</p>
+        <p>Husband, Father, Freedom Enthusiast, & Future Dystopian Warlord.</p>
+        <p>"I am extremely peaceful." ~ jstark1809</p>
+        <p>SATS Off chain: Justin@thenostr.lol</p>
+        <p>BTC On chain: bc1qxyrzal4jcgkepf8hmlr2sqm0jye47l07pm4jym</p>
     </div>
     <a href="https://njump.me/nprofile1qqsrkn29mnye3dnp82eum9vkcd4xespzwpww4hqjt0p0xlkql0p7g8gpr4mhxue69uhkummnw3ezumt4w35ku7thv9kxcet59e3k7mf0qy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmjv4kxz7fwv3sk6atn9e5k7tcta4gwt" class="profile-link">PROFILE</a>
 </body>
