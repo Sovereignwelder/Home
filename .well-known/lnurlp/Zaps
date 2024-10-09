@@ -1,0 +1,10 @@
+{
+  "callback": "https://minibits.cash/.well-known/lnurlp/nostrpunk",
+  "minSendable": 1000,
+  "maxSendable": 1000000000,
+  "metadata": "[[\"text/plain\",\"Pay to nostrpunk@minibits.cash with Lightning. Receiver will receive ecash into Minibits Wallet.\"],[\"text/identifier\",\"nostrpunk@minibits.cash\"]]",
+  "commentAllowed": 100,
+  "allowsNostr": true,
+  "nostrPubkey": "beeb48407a6f087ea8f76dc384a5d88c67ced9bd9fb0cdba90930210df3d92e7",
+  "tag": "payRequest"
+}
