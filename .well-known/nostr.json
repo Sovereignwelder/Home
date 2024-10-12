@@ -3,6 +3,6 @@
     "": "9e69e420e60df69cd945510882cfe44d91757a2c58d1c21c027a7977d12360c2"
   },
   "relays": {
-    "9e69e420e60df69cd945510882cfe44d91757a2c58d1c21c027a7977d12360c2": [ "wss://relay.nostrpunk.com", "ws://5laki7ronqaju5yrck73big7mf7q3bctqlyzpuw7qsjqhl7ynisltqad.onion", "wss://WOT.UTXO.ONE" ]
+    "9e69e420e60df69cd945510882cfe44d91757a2c58d1c21c027a7977d12360c2": [ "wss://relay.nostrpunk.com", "ws://5laki7ronqaju5yrck73big7mf7q3bctqlyzpuw7qsjqhl7ynisltqad.onion", "wss://WOT.UTXO.ONE", "wss://nos.lol" ]
   }
 }
