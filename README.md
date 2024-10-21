@@ -8,7 +8,7 @@ This static page serves 5 purposes:
 
 - creates a simple landing page for the nip5 domain
 
-- creates a media folder for hosting your avatar and banner at the domainyour-nip-5-domain.com/media/i/image.jpeg
+- creates a media folder for hosting your avatar and banner at your-nip-5-domain.com/media/i/image.jpeg
 
 - creates a iframe of the shopstr store of a given npub at your-nip-5-domain.com/shopstr
 
