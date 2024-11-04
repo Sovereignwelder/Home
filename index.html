@@ -3,79 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nostrpunks's Profile</title>
-    <style>
-        body {
-            background-color: black;
-            color: #A020F0;
-            font-family: 'Courier New', monospace;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        header {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+<div class="responsive-container">
+    <iframe 
+        src="https://btcpay.nostr.tips/apps/AbFZ2o9TV1jFVj3DKpuboLHoyuS/crowdfund"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<style>
+.responsive-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 aspect ratio */
 }
 
-header img {
-  width: 100%;
-  height: auto;
+.responsive-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 20px auto;
-        }
-        .content {
-            max-width: 90%;
-            width: 600px;
-            margin: 0 auto;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            line-height: 1.5;
-        }
-        .profile-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            border: 2px solid #00ff00;
-            color: #00ff00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        @media (max-width: 600px) {
-            .profile-pic {
-                width: 100px;
-                height: 100px;
-            }
-            .content {
-                font-size: 18px;
-            }
-        }
-    </style>
-</head>
-    <header>
-       <img src="https://i.nostr.build/ZjFgAxKjHpmBLyKq.jpg">
-    </header>
-<body>
-    <img src="https://i.nostr.build/h61GVgoXLVmC1t0v.jpg" alt="Profile Picture" class="profile-pic">
-    <div class="content">
-        <h1></h1>
-        <p></p>
-        <p>NPUB: npub1ne57gg8xphmfek292yyg9nlyfkgh273vtrguy8qz0fuh05frvrpqn2t7zd</p>
-        <p> </p>
+</style>
 
-        <p>lnadress: zaps@nostrpunk.com</p>
-        <p> </p>
-        <p>bitcoin:bc1qnxsp66m68nka493pgh2mz7fqg897a4l6kfxsay?amount=1</p>
-    </div>
 </body>
 </html>
