@@ -1,10 +1,8 @@
 {
-  "callback": "https://minibits.cash/.well-known/lnurlp/nostrpunk",
   "minSendable": 1000,
-  "maxSendable": 1000000000,
-  "metadata": "[[\"text/plain\",\"Pay to nostrpunk@minibits.cash with Lightning. Receiver will receive ecash into Minibits Wallet.\"],[\"text/identifier\",\"nostrpunk@minibits.cash\"]]",
-  "commentAllowed": 100,
-  "allowsNostr": true,
-  "nostrPubkey": "beeb48407a6f087ea8f76dc384a5d88c67ced9bd9fb0cdba90930210df3d92e7",
+  "maxSendable": 500000000000,
+  "metadata": "[[\"text/plain\",\"speed-payment-address\"],[\"text/identifier\",\"justinanon@speed.app\"]]",
+  "commentAllowed": 255,
+  "callback": "https://appapi.tryspeed.com/lnurl/ac48a0c85e390df87c107ffe2db12ea0fdc273592053008076c6f197f6c4d672",
   "tag": "payRequest"
 }
