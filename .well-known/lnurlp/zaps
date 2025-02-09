@@ -1,10 +1,1 @@
-{
-  "callback": "https://minibits.cash/.well-known/lnurlp/edibletaboo946",
-  "minSendable": 1000,
-  "maxSendable": 1000000000,
-  "metadata": "[[\"text/plain\",\"Pay to edibletaboo946@minibits.cash with Lightning. Receiver will receive ecash into Minibits Wallet.\"],[\"text/identifier\",\"edibletaboo946@minibits.cash\"]]",
-  "commentAllowed": 100,
-  "allowsNostr": true,
-  "nostrPubkey": "beeb48407a6f087ea8f76dc384a5d88c67ced9bd9fb0cdba90930210df3d92e7",
-  "tag": "payRequest"
-}
+{"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://getalby.com/lnurlp/floralbush58738/callback","metadata":"[[\"text/identifier\",\"floralbush58738@getalby.com\"],[\"text/plain\",\"Sats for floralbush58738\"]]","minSendable":1000,"maxSendable":10000000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false},"pubkey":{"mandatory":false}},"nostrPubkey":"79f00d3f5a19ec806189fcab03c1be4ff81d18ee4f653c88fac41fe03570f432","allowsNostr":true}
