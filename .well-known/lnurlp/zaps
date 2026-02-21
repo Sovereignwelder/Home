@@ -1,1 +1,10 @@
-{"status":"OK","tag":"payRequest","commentAllowed":255,"callback":"https://getalby.com/lnurlp/floralbush58738/callback","metadata":"[[\"text/identifier\",\"floralbush58738@getalby.com\"],[\"text/plain\",\"Sats for floralbush58738\"]]","minSendable":1000,"maxSendable":10000000000,"payerData":{"name":{"mandatory":false},"email":{"mandatory":false},"pubkey":{"mandatory":false}},"nostrPubkey":"79f00d3f5a19ec806189fcab03c1be4ff81d18ee4f653c88fac41fe03570f432","allowsNostr":true}
+{
+  "allowsNostr": true,
+  "minSendable": 1000,
+  "maxSendable": 100000000000,
+  "metadata": "[[\"text/plain\",\"Paying adm1n@coinos.io\"],[\"text/identifier\",\"adm1n@coinos.io\"]]",
+  "nostrPubkey": "72bdbc57bdd6dfc4e62685051de8041d148c3c68fe42bf301f71aa6cf53e52fb",
+  "commentAllowed": 512,
+  "callback": "https://coinos.io/api/lnurl/b2e5af50-425a-44d3-bb8f-7f8e9ba5044e",
+  "tag": "payRequest"
+}
