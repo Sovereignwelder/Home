@@ -1,8 +1,8 @@
 {
   "names": {
-    "": "9e69e420e60df69cd945510882cfe44d91757a2c58d1c21c027a7977d12360c2"
+    "justin": "51bbb15e37e85b00d8a76837b6b6a3355d1dc5ec58bdd0f3808c9ad3b77a2290"
   },
   "relays": {
-    "9e69e420e60df69cd945510882cfe44d91757a2c58d1c21c027a7977d12360c2": [ "wss://relay.nostrpunk.com", "ws://5laki7ronqaju5yrck73big7mf7q3bctqlyzpuw7qsjqhl7ynisltqad.onion", "wss://WOT.UTXO.ONE", "wss://nos.lol" ]
+    "51bbb15e37e85b00d8a76837b6b6a3355d1dc5ec58bdd0f3808c9ad3b77a2290": [ "wss://WOT.UTXO.ONE", "wss://nos.lol" ]
   }
 }
