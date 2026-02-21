@@ -3,7 +3,7 @@
   "minSendable": 1000,
   "maxSendable": 100000000000,
   "metadata": "[[\"text/plain\",\"Paying adm1n@coinos.io\"],[\"text/identifier\",\"adm1n@coinos.io\"]]",
-  "nostrPubkey": "72bdbc57bdd6dfc4e62685051de8041d148c3c68fe42bf301f71aa6cf53e52fb",
+  "nostrPubkey": "51bbb15e37e85b00d8a76837b6b6a3355d1dc5ec58bdd0f3808c9ad3b77a2290",
   "commentAllowed": 512,
   "callback": "https://coinos.io/api/lnurl/b2e5af50-425a-44d3-bb8f-7f8e9ba5044e",
   "tag": "payRequest"
